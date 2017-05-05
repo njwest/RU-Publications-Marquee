@@ -1,0 +1,29 @@
+{
+  "name": "RU-Publications-Marquee",
+  "version": "0.5",
+  "description": "A publications marquee built for the Rutgers Doctor of Social Work (DSW) Program with JQuery and aamirafridi's jQuery.Marquee plugin",
+  "main": "jquery.marquee.min",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njwest/RU-Publications-Marquee.git"
+  },
+  "keywords": [
+    "higher-education",
+    "academia",
+    "rutgers",
+    "ecosystem:jquery",
+    "jquery",
+    "marquee",
+    "css3",
+    "animation"
+  ],
+  "author": "mail@nickwe.st",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njwest/RU-Publications-Marquee/issues"
+  },
+  "homepage": "https://github.com/njwest/RU-Publications-Marquee#readme"
+}

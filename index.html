@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JQuery Ticker and Marquee</title>
+    <style media="screen">
+    .marquee {
+      width: 1000px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      height: 100px;
+    }
+    .inline-block{
+      display: inline-block;
+      padding-right: 25px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class='marquee' data-duration='9000' data-gap='4' data-duplicated='true'>
+      <p class="inline-block">
+        <strong>Clay, Z.</strong>, Barrett, N., Reilly, A., & Zazzarino, A. (2016). <br/>Work-based learning: A training model <br/>for state wide system changes. <br/>Psychiatric Rehabilitation Journal, 39(4), 371-374.
+      </p>
+
+      <p class="inline-block">
+        <strong>Conti, M.M.</strong> (2017).<br/> The case study of Jacob: Childhood sexual abuse <br/>and the limitations of the holding environment.<br/> Psychoanalytic Social Work, 24(1), p. 18-36.
+      </p>
+
+      <p class="inline-block">
+        <strong>Hubbard, T.</strong> (in press, Summer 2017). <br/>It’s not all about the behaviors: Identifying and addressing <br/>relational neglect in adolescence within the familial environment. <br/>Reflections: Narratives of Professional Helping.
+      </p>
+
+
+<!-- check kanako citation below -->
+      <p class="inline-block">
+        <strong>Okuda, K.</strong> (2017). <br/>Interprofessional work in pediatric medicine. <br/>In C. Morano (Ed.) Perspectives on interprofessional education and practice. Washington, DC: NASW Press.
+      </p>
+
+      <p class="inline-block">
+        <strong>Suttenberg, L. P. </strong>(2016). <br/>Never Forget: Cognitive Restructuring Limitations <br/>in Holocaust Related Layered Trauma. <br/>Clinical Social Work Journal, 44(3), 231-240.
+      </p>
+
+      <p class="inline-block">
+        Warner, B., & <strong>Miller, P.E.</strong>, (2017). <br/>Understanding the practice experience of the military mental health provider<br/> in a deployed setting: A conceptual model. <br/>Military Behavioral Health, doi: 10.1080/21635781.2017.1295001
+      </p>
+    </div>
+
+    <button class="pause">Pause</button>
+
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.marquee.min.js"></script>
+    <script type="text/javascript">
+    $('.marquee').marquee({
+      duration: 9000,
+      gap: 9,
+      delayBeforeStart: 0,
+      direction: 'left',
+      duplicated: true
+  });
+    </script>
+
+</body>
+
+</html>
